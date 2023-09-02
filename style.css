@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    display: flex;
+}
+
+/* Info Start */
+.info {
+    background: #5C5470;
+    width: 30%;
+}
+
+.info img {
+    height: 70px;
+    margin-left: 37px;
+    margin-top: 30px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+}
+
+.contact .contact-header h4 {
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+}
+
+.contact .contact-body h5 {
+    font-size: 10px;
+    color: #fff;
+    font-weight: 300;
+    text-align: center;
+}
+
+.contact .contact-body h6 {
+    font-size: 9px;
+    color: #fff;
+    font-weight: 300;
+    text-align: center;
+}
+
+.stack {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.stack .stack-header h4 {
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+}
+
+.skills {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 8px;
+}
+
+.skills-1 {
+    width: 35px;
+    height: 35px;
+    background: #fff;
+    margin-inline-start: 5px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.skills-1 img {
+    max-width: 100%;
+    max-height: 100%;
+    width: 30px;
+    height: 30px;
+    margin-left: 2px;
+    align-items: center;
+    padding-left: 0px;
+    padding-right: 3px;
+    padding-bottom: 4px;
+}
+
+.info-reference {
+    margin-bottom: 30px;
+}
+
+.info-reference h4 {
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+}
+
+.info-reference h5 {
+    color: #fff;
+    font-size: 10px;
+    text-align: center;
+    font-weight: 300;
+}
+
+.info-reference h6 {
+    color: #fff;
+    font-size: 9px;
+    text-align: center;
+    font-weight: 300;
+}
+/* Info End */
+
+
+/* Background Start */
+.background {
+    background: #aea9a9;
+    width: 70%;
+}
+
+.hero-name {
+    margin-top: 18px;
+}
+
+.hero-name h1 {
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Archivo Black', sans-serif;
+}
+
+.hero-name h4 {
+    font-size: 14px;
+    text-transform: uppercase;
+    text-align: left;
+    margin-left: 20px;
+    color: #fff;
+}
+
+.work-experience .experience-1 {
+    display: flex;
+    margin-top: 15px;
+}
+
+.work-experience .experience-1 img{
+    height: 20px;
+    margin-left: 15px;
+}
+
+.work-experience .experience-1 h4{
+    font-size: 12px;
+    font-weight: 600;
+    margin-left: 5px;
+    text-transform: uppercase;
+    margin-top: 1px;
+}
+
+.my-experience {
+    display: flex;
+}
+
+.my-experience p {
+    color: #fff;
+    margin-left: 18px;
+}
+
+.my-experience h4 {
+    font-size: 10px;
+    margin-left: 10px;
+    margin-top: 1px;
+}
+
+.my-experience h4 span{
+    color: #fff;
+    margin-left: 6px;
+    font-weight: 300;
+}
+
+.work-experience div p {
+    margin-left: 40px;
+    font-size: 10px;
+    font-style: italic;
+    color: #313866;
+}
+
+.work-experience-content .exp {
+    font-size: 8px;
+    color: #fff;
+    margin-left: 40px;
+    text-align: justify;
+    margin-right: 20px;
+    font-style: normal;
+    font-weight: 200;
+}
+
+.education {
+    margin-bottom: 30px;
+}
+
+.education .education-1 {
+    display: flex;
+}
+
+.education .education-1 h4{
+    font-size: 12px;
+    font-weight: 600;
+    margin-left: 5px;
+    text-transform: uppercase;
+    margin-top: 6px;
+}
+
+.education .education-1 img {
+    height: 20px;
+    margin-left: 15px;
+    margin-top: 5px;
+}
+
+.education .work-experience-section {
+    display: flex;
+}
+
+.education .work-experience-section h4 {
+    font-size: 10px;
+    margin-left: 10px;
+    margin-top: 1px;
+    color: #313866;
+}
+
+.education .work-experience-section p {
+    color: #fff;
+    margin-left: 40px;
+    font-size: 10px;
+}
+
+.education .work-experience-content p {
+    margin-left: 55px;
+    font-size: 12px;
+    font-weight: 400;
+    color: #614BC3;
+    text-transform: uppercase;
+}
+/* Background End */
+
+
+/* List of MediaQuery */
+/* @media (min-width: 1200px) {} 
+   @media (min-width: 1024px) and (max-width: 1199px) {}  
+   @media (min-width: 768px) and (max-width: 1023px) {}  
+   @media (max-width: 767px) {}   
+*/
